@@ -2,7 +2,7 @@ import React from 'react'
 import './Login.css';
 import Frontimage from '../Images/image53.webp'
 import logo from '../Images/logo.png'
-
+import Registration from '../Registration/Registration';
 function Login() {
     return (
         <>
@@ -10,10 +10,10 @@ function Login() {
                 <div className="container">
                     <div className="row g-0" id="row1">
                         <div className="img col-lg-6">
-                            <img src={Frontimage} className="img-fluid img" alt="image" />
+                            <img src={Frontimage} className="img-fluid img" alt="..." />
                         </div>
                         <div className="col-lg-6">
-                            <img src={logo} className="img2 img-fluid mb-2" alt="image" />
+                            <img src={logo} className="img2 img-fluid mb-2" alt="..." />
 
                             <h4 className="mb-0 my-3 mx-5 text-secondary">Welcome Back</h4>
                             <h3 className="mb-0 mx-5 mt-2">Sign In to your account</h3>
@@ -32,8 +32,8 @@ function Login() {
                                     <div className="col-5"><input id="chk1" type="checkbox" name="chk" className="custom-control-input" />
                                         <label for="chk1" className="custom-control-label text-sm">Remember me</label>
                                     </div>
-                                    <div className="col-5 mr-2">
-                                        <a href="#" className="mb-0 mx-0 text-sm ">Forgot Password?</a>
+                                    <div className="font-weight-bold col-5 mr-2">
+                                        <a href="#" className="mb-0 mx-0 text-sm font-weight-bold ">Forgot Password?</a>
                                     </div>
                                 </div>
                                 <div className="form-row">
@@ -43,10 +43,9 @@ function Login() {
                                 </div>
                                 <div className="form-row mx-4">
                                     <div className="offset-1 col-lg-10">
-                                        <p> Don’t have an account? <a href="">Register Now!</a></p>
+                                        <p> Don’t have an account? <a href="#">Register Now!</a></p>
                                     </div>
                                 </div>
-
                             </form>
 
                         </div>
