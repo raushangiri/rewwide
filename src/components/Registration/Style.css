@@ -84,7 +84,7 @@ margin-left: 0.5rem;}
   .btn1{
   margin-left: 10px; 
    height: 50px;
-	width: 30%;
+	width: 35%;
 	border: none;
 	outline: none;
 	border-radius: 60px;
@@ -104,4 +104,8 @@ margin-left: 0.5rem;}
 	  padding-left: 2px;
 	  border-style: none;
 
+  }
+  .img3{
+	  height: 5rem;
+	  width: 7rem;
   }

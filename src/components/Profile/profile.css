@@ -1,0 +1,60 @@
+*.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#row1{
+	background: rgb(93, 142, 216);
+	border-radius: 30px;
+	box-shadow: 12px 12px 22px;
+  }
+.avtar
+{
+    margin-left: 1rem;
+    height: 3rem;
+}
+.CardPro{
+    color:floralwhite;
+    height: 1.5rem;
+    width: 100%;
+}
+.dash
+{
+    border-radius: 30px;
+    background-color: rgb(189, 186, 186);
+}
+.card
+{
+border-radius: 30px;
+margin-left: 4px;
+}
+.card1{
+    margin-left: 0%;
+    background-color: greenyellow;
+    border-radius: 30px;
+    border-color: grey;
+    border-style: solid;
+    margin-right: 5px;
+}
+.card2{
+    background-color: rgb(36, 91, 194);
+    border-radius: 30px;
+    border-color: grey;
+    border-style: solid;
+    margin-right: 5px;
+}
+.card3{
+    background-color: rgb(189, 20, 138);
+    border-radius: 30px;
+    border-color: grey;
+    border-style: solid;
+    margin-right: 5px;
+
+}
+.card4{
+    border-radius: 30px;
+    border-color: grey;
+    border-style: solid;
+    margin-right: 5px;    background-color: rgb(20, 150, 189);
+}
